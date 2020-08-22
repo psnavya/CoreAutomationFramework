@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="selenium-firefox-driver-2.53.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Libs/selenium-firefox-driver-2.53.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
