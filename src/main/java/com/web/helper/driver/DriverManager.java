@@ -1,6 +1,6 @@
-package com.helper.driver;
+package com.web.helper.driver;
 
-import com.execution.AppDriver;
+import com.web.execution.AppDriver;
 import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;

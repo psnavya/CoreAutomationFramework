@@ -1,8 +1,8 @@
-package com.helper.excelHandling;
+package com.web.helper.excelHandling;
 
 import com.google.common.collect.ListMultimap;
-import com.helper.testDataHandling.ControlSheetHandler;
-import com.helper.Log;
+import com.web.helper.testDataHandling.ControlSheetHandler;
+import com.web.helper.Log;
 import org.testng.annotations.Test;
 import org.w3c.dom.DOMException;
 import org.w3c.dom.Document;

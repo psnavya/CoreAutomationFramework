@@ -1,9 +1,9 @@
-package com.execution;
+package com.web.execution;
 
-import com.base.BaseUtil;
-import com.helper.ConfigurationHelper;
-import com.helper.driver.DriverInstance;
-import com.helper.driver.DriverManager;
+import com.web.base.MobileBaseUtil;
+import com.web.helper.ConfigurationHelper;
+import com.web.helper.driver.DriverInstance;
+import com.web.helper.driver.DriverManager;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
@@ -35,13 +35,13 @@ import static org.testng.Assert.fail;
 /**
  * Created by Navya on 23-08-2020.
  */
-public class AppDriver extends BaseUtil {
+public class AppDriver extends MobileBaseUtil {
     public static WebDriver Driver = null;
     public static AppiumDriver Driver1 =null;
     public static String projectPath = System.getProperty("user.dir")+"//src//main//resources//";
     public static String driverPath = null;
     public static DriverInstance driverInstance = DriverInstance.INSTANCE;
-    //BaseUtil BaseRef = new BaseUtil();
+    //MobileBaseUtil BaseRef = new MobileBaseUtil();
 
     public void createFirefoxDriver() {
         Driver = new FirefoxDriver();

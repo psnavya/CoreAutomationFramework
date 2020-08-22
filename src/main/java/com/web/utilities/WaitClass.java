@@ -1,8 +1,8 @@
-package com.utilities;
+package com.web.utilities;
 
-import com.base.BaseUtil;
-import com.helper.testDataHandling.ObjectRepositoryReader;
-import com.helper.driver.DriverInstance;
+import com.web.base.MobileBaseUtil;
+import com.web.helper.testDataHandling.ObjectRepositoryReader;
+import com.web.helper.driver.DriverInstance;
 import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +13,7 @@ import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
-public class WaitClass extends BaseUtil {
+public class WaitClass extends MobileBaseUtil {
 
 	private static long defaultTime = 60;
 	public static long DEFAULT_SLEEP_BETWEEN_POLLS_MILLIS = 1;

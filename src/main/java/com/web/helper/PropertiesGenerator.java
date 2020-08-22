@@ -1,4 +1,4 @@
-package com.helper;
+package com.web.helper;
 
 /**
  * Created by Navya on 23-08-2020.
@@ -14,11 +14,9 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
 import java.util.Dictionary;
 import java.util.HashMap;
 import java.util.Hashtable;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 

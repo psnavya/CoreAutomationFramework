@@ -1,8 +1,8 @@
-package com.helper.testDataHandling;
+package com.web.helper.testDataHandling;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ListMultimap;
-import com.helper.excelHandling.ExcelReader;
+import com.web.helper.excelHandling.ExcelReader;
 
 import java.util.List;
 

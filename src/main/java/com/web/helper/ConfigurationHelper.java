@@ -1,4 +1,4 @@
-package com.helper;
+package com.web.helper;
 
 import org.apache.commons.lang3.StringUtils;
 

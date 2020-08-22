@@ -1,9 +1,9 @@
-package com.execution;
+package com.web.execution;
 
-import com.base.BaseUtil;
-import com.helper.FileOperations;
-import com.helper.PropertiesGenerator;
-import com.helper.excelHandling.ExcelToXML;
+import com.web.base.MobileBaseUtil;
+import com.web.helper.FileOperations;
+import com.web.helper.PropertiesGenerator;
+import com.web.helper.excelHandling.ExcelToXML;
 import com.relevantcodes.extentreports.ExtentReports;
 import org.testng.TestNG;
 import org.w3c.dom.Document;
@@ -40,7 +40,7 @@ public class MasterXMLSuite extends PropertiesGenerator {
     public static void main(String[] args) throws IOException {
 
 		/*extent = new ExtentReports(EXTENTREPORTPATH, false, NetworkMode.OFFLINE);
-        BaseUtil.setExtent(extent);
+        MobileBaseUtil.setExtent(extent);
 		extent.addSystemInfo("Release# ", Appdriver.readConfigFile("BUILD_NUMBER"));
 		extent.addSystemInfo("Environment: ", Appdriver.readConfigFile("ENVIRONMENT"));*/
 
@@ -58,7 +58,7 @@ public class MasterXMLSuite extends PropertiesGenerator {
         System.out.println(suites);
         testng.setTestSuites(suites);
         testng.run();
-        BaseUtil.clearXMLFiles();
+        MobileBaseUtil.clearXMLFiles();
     }
 
     public static ArrayList<String> generatePaths() {

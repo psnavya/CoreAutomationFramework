@@ -1,6 +1,6 @@
-package com.helper.testDataHandling;
+package com.web.helper.testDataHandling;
 
-import com.base.BaseUtil;
+import com.web.base.MobileBaseUtil;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
@@ -73,7 +73,7 @@ public class DataHelper {
 	}
 
 	public static void writeToOutput(String columnName, String testData) {
-		writeTestDataValues("OutputData", BaseUtil.getTestName(), columnName, testData);
+		writeTestDataValues("OutputData", MobileBaseUtil.getTestName(), columnName, testData);
 	}
 
 	public static void writeTestDataValues(String sheetName, String testCaseName, String columnName, String testData) {
@@ -103,12 +103,12 @@ public class DataHelper {
 
 	public static String getFromOutput(String columnName) {
 
-		return getFromOutputValues("OutputData", BaseUtil.getTestName(), columnName);
+		return getFromOutputValues("OutputData", MobileBaseUtil.getTestName(), columnName);
 	}
 
 	public static String getFromInput(String columnName) {
 
-		return getFromOutputValues("InputData", BaseUtil.getTestName(), columnName);
+		return getFromOutputValues("InputData", MobileBaseUtil.getTestName(), columnName);
 	}
 
 	public static String getFromOutputValues(String sheetName, String testCaseName, String columnName) {
