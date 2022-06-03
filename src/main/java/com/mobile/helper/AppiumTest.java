@@ -19,7 +19,7 @@ public class AppiumTest {
         String browserName = "mobileOS";
         DesiredCapabilities capabilities = new DesiredCapabilities(browserName, "", Platform.ANY);
         String host = "linkedin.perfectomobile.com";
-        capabilities.setCapability("user", "alok.shankar@in.tesco.com");
+        capabilities.setCapability("user", "newid@gmail.com");
         capabilities.setCapability("password", "Password");
 
         //TODO: Change your device ID
