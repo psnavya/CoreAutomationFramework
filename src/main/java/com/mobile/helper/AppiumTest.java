@@ -72,10 +72,10 @@ public class AppiumTest {
         
         driver.context("NATIVE_APP");
         driver.findElementByXPath("//AppiumAUT/UIAApplication[1]/UIAWindow[1]/UIASecureTextField[8]").sendKeys("9");
-        driver.findElementByXPath("//AppiumAUT/UIAApplication[1]/UIAWindow[1]/UIASecureTextField[9]").sendKeys("2");
-        driver.findElementByXPath("//AppiumAUT/UIAApplication[1]/UIAWindow[1]/UIASecureTextField[10]").sendKeys("0");
+        driver.findElementByXPath("//AppiumAUT/UIAApplication[1]/UIAWindow[1]/UIASecureTextField[9]").sendKeys("1");
+        driver.findElementByXPath("//AppiumAUT/UIAApplication[1]/UIAWindow[1]/UIASecureTextField[10]").sendKeys("1");
         driver.findElementByXPath("//AppiumAUT/UIAApplication[1]/UIAWindow[1]/UIASecureTextField[11]").sendKeys("1");
-        driver.findElementByXPath("//AppiumAUT/UIAApplication[1]/UIAWindow[1]/UIASecureTextField[12]").sendKeys("3");
+        driver.findElementByXPath("//AppiumAUT/UIAApplication[1]/UIAWindow[1]/UIASecureTextField[12]").sendKeys("1");
         
         
       //Dismiss Balance peek tutorial
@@ -128,10 +128,10 @@ public class AppiumTest {
         if(driver.findElementByXPath("//*[@label=\"Enter your passcode\"]").isEnabled())
         {
         	driver.findElementByXPath("//*[@label=\"Enter your passcode. 1st digit\"]").sendKeys("9");
-        	driver.findElementByXPath("//*[@label=\"2nd digit\"]").sendKeys("2");
-        	driver.findElementByXPath("//*[@label=\"3rd digit\"]").sendKeys("0");
+        	driver.findElementByXPath("//*[@label=\"2nd digit\"]").sendKeys("1");
+        	driver.findElementByXPath("//*[@label=\"3rd digit\"]").sendKeys("1");
         	driver.findElementByXPath("//*[@label=\"4th digit\"]").sendKeys("1");
-        	driver.findElementByXPath("//*[@label=\"5th digit\"]").sendKeys("3");
+        	driver.findElementByXPath("//*[@label=\"5th digit\"]").sendKeys("1");
         }
         
         if(driver.findElementByXPath("//*[@label=\"Make a payment now?\"]").isEnabled())
